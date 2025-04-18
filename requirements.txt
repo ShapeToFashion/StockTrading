@@ -1,0 +1,5 @@
+transformers==4.39.3
+torch==2.2.2
+pandas==2.2.1
+alpaca-trade-api==3.1.0
+Flask==3.0.2
