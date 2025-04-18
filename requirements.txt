@@ -1,5 +1,10 @@
+Flask==3.0.2
+flask-cors==4.0.0
+joblib==1.4.2
+numpy==1.26.4
+scikit-learn==1.4.2
+yfinance==0.2.37
+pandas==2.2.1
 transformers==4.39.3
 torch==2.2.2
-pandas==2.2.1
 alpaca-trade-api==3.1.0
-Flask==3.0.2
