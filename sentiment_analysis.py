@@ -13,7 +13,8 @@ config = AutoConfig.from_pretrained(
   id2label = {0: "positive" , 1:"negative"},
   label2id = {"positive":0 , "negative":1}
 )
-#find the sentiment_model.zip in the whatsapp chat and extract it in the pwd 
+#find the sentiment_model.zip in the link below and extract it in the pwd
+# https://drive.google.com/file/d/1W0NCCJXAnMc8AldgjJe1HRfObtepJTc5/view?usp=sharing 
 model_path = "./sentiment_model"
 
 model = AutoModelForSequenceClassification.from_pretrained(model_path , config=config)
